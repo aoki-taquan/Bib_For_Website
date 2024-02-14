@@ -6,15 +6,13 @@
         "tabs"
     ],
     "action": {
+        "default_title": "Bib For Website",
+        "default_popup": "popup.html",
         "default_icon": {
-            "default_title": "Bib For Website",
-            "default_popup": "popup.html",
-            "default_icon": {
-                "32": "icons/32.png",
-                "72": "icons/72.png",
-                "128": "icons/128.png",
-                "512": "icons/512.png"
-            }
+            "32": "icons/32.png",
+            "72": "icons/72.png",
+            "128": "icons/128.png",
+            "512": "icons/512.png"
         }
     },
     "icons": {
