@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Bib For Website",
+    "version": "1.0",
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_icon": {
+            "400": "icon400.png"
+        },
+        "default_title": "Bib For Website",
+        "default_popup": "popup.html"
+    }
+}
