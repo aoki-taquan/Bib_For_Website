@@ -30,13 +30,14 @@ function create_key(str) {
 }
 
 function create_bib(Title, Url, key) {
+    let today = new Date();
     return `@misc{${key},
   author       = {},
   title        = {${Title}},
   howpublished = {\\break \\url{${Url}}},
   month        = {},
   year         = {},
-  note         = {(02/13/2024 閲覧)}
+  note         = {(${new Date().toLocaleDateString("en-US", {month: "2-digit",day: "2-digit",year: "numeric"  })} 閲覧)}
 }`
 }
 
